@@ -21,7 +21,7 @@ public class vectorprac
 		System.out.println("before the sorting "+v1);
 		Collections.sort(v1);
 		System.out.println("After sorting "+v1);
-		sc.close();
+		
 
 	}
 
