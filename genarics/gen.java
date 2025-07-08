@@ -39,7 +39,7 @@ class almandbox{
 		index=0;
 	}
 	public void add(almand almand) {
-		// TODO Auto-generated method stub
+	System.err.println("good");
 		
 	}
 	public void get(almand mond) {

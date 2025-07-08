@@ -5,10 +5,9 @@ public class absuse {
 		{
 			abstractc ab=new abstractc()
 					{
-				int a;
 				@Override
 				public void re() {
-					// TODO Auto-generated method stub
+					System.out.println("hi");
 					
 				}
 					};
