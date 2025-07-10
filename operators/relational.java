@@ -22,4 +22,9 @@ public class relational {
         }
        return num;
     }
+    public static void main (String[] args)
+    {
+        relational re= new relational();
+        re.check(100);
+    }
 }
