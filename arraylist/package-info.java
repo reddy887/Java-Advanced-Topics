@@ -11,9 +11,15 @@ class arrayl
         ArrayList <Integer>arr= new java.util.ArrayList<Integer>(Arrays.asList(ar));
         arr.add(23);
         System.out.println(arr.contains(23));
+        //using for each loop
         for(Integer i:arr)
         {
             System.out.println(i);
+        }
+        //using for loop
+        for(int i=0;i<arr.size();i++)
+        {
+            System.out.print(arr.get(i));
         }
     }
 }
