@@ -16,7 +16,7 @@ public class relational {
             System.out.println("the numbers are not equal");
             if (n<num||n>num)
             {
-                System.out.println("the number is "+n +" "+num);
+                System.out.println("the both numbers is "+n +"and"+num);
 
             }
         }
