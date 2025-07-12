@@ -13,4 +13,5 @@ Example :-
   --------------------------------------------------------------------
   -->The String pool is a special area inside the heap.
   -->It stores string liters -i.e., strings written in double quotes without using 'new'.
-  -->
+  -->Java reuses strings in the pool to save memory.
+  -->If a string already exists in the pool ,Java returns the reference to it insteaad of creating a new one.
