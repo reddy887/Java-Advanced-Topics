@@ -1,0 +1,10 @@
+                    HEAP MEMORY VS STRING POOL IN JAVA
+----------------------------------------------------------------------------------------------
+--heap memory--
+-->Heap memory is the part of JVM memory where all java objects are stored during runtime.
+-->It is used for dynamic memory allocation.
+-->Every time you create an object using 'new', its goes to the heap.
+-->String created using 'new string ("abc")' are also stored in heap (not in string pool).
+-->Garbage collector manages heap memory and clears unused objects.
+Example :-
+  String str1 =new String ("hello");//stored in heap
