@@ -8,3 +8,9 @@
 -->Garbage collector manages heap memory and clears unused objects.
 Example :-
   String str1 =new String ("hello");//stored in heap
+
+                    String pool (String Constant pool ):
+  --------------------------------------------------------------------
+  -->The String pool is a special area inside the heap.
+  -->It stores string liters -i.e., strings written in double quotes without using 'new'.
+  -->
