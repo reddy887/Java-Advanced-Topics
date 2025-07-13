@@ -1,0 +1,45 @@
+                    HEAP MEMORY VS STRING POOL IN JAVA
+----------------------------------------------------------------------------------------------
+--heap memory--
+-->Heap memory is the part of JVM memory where all java objects are stored during runtime.
+-->It is used for dynamic memory allocation.
+-->Every time you create an object using 'new', its goes to the heap.
+-->String created using 'new string ("abc")' are also stored in heap (not in string pool).
+-->Garbage collector manages heap memory and clears unused objects.
+Example :-
+  String str1 =new String ("hello");//stored in heap
+
+                    String pool (String Constant pool ):
+  --------------------------------------------------------------------
+  -->The String pool is a special area inside the heap.
+  -->It stores string liters -i.e., strings written in double quotes without using 'new'.
+  -->Java reuses strings in the pool to save memory.
+  -->If a string already exists in the pool ,Java returns the reference to it insteaad of creating a new one.
+
+
+  Example:
+    String str2 = "hello"; // Stored in string pool
+
+3. DIFFERENCE TABLE:
+---------------------------------------
+
+| Feature              | Heap Memory                     | String Pool                          |
+|----------------------|----------------------------------|--------------------------------------|
+| Location             | In JVM heap                     | Inside heap, but a special area      |
+| Used For             | All objects                     | Only string literals                 |
+| Duplicate Strings    | Allowed                         | Not allowed (uses same reference)    |
+| Memory Efficiency    | Less efficient                  | More efficient for repeated strings  |
+| Created Using        | new keyword                     | Direct assignment with quotes        |
+
+4. CODE EXAMPLE:
+
+    public class StringPoolDemo {
+        public static void main(String[] args) {
+            String s1 = "java";               // goes to string pool
+            String s2 = "java";               // refers to the same object in pool
+            String s3 = new String("java");   // creates new object in heap
+
+            System.out.println(s1 == s2);     // true
+            System.out.println(s1 == s3);     // false
+        }
+    }
