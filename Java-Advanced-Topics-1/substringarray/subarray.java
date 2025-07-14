@@ -7,7 +7,7 @@ public class subarray
 		int arr[]= {2,4,6,7,9,89};
 		for (int i=0;i<arr.length;i++)
 		{
-			
+			System.err.println(arr[i]);
 		}
 	}
 }
