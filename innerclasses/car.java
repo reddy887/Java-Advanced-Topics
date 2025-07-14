@@ -3,6 +3,7 @@ package innerclasses;
 public interface car
 {
 	public void nano(int a);
+	@SuppressWarnings("unused")
 	private void nano1()
 	{
 		int a=45;

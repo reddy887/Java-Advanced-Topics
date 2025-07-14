@@ -22,7 +22,6 @@ public class vectorprac
 		Collections.sort(v1);
 		System.out.println("After sorting "+v1);
 		sc.close();
-
 	}
 
 }
