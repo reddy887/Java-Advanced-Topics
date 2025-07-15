@@ -16,6 +16,7 @@ Different way of reading the data from text files.
 >Scanner
 >file reader
 >BufferedReader
+>Files.readAllLines() (NIO – Java 7+)
 
 Different ways of writing the data into textfiles.
 
