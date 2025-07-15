@@ -27,7 +27,7 @@ public class usingcompara
 		Arrays.sort(stud);
 		List<compa>re=new ArrayList<>(Arrays.asList(stud));
 		Collections.sort(re);
-//        System.err.println(re);
+    //    System.err.println(re);
 	}
 }
 class compa
