@@ -1,0 +1,25 @@
+what is file handling ?
+----------------------------
+-->the file handling in java to processing the data reading ,creating ,updating and deleting files stored on the file syastem.
+-->java provides the java.io, and java.nio.files packages for file operation.
+
+ahy file handling is important?
+-------------------------------------------
+-->to store data permanently(unlike memory,whic is temparary).
+--> to perform logging,configuration,reporting and data storage in real world applications.
+
+key class in file handling
+---------------------------------
+Different way of reading the data from text files.
+
+>FileInputStream
+>Scanner
+>file reader
+>BufferedReader
+
+Different ways of writing the data into textfiles.
+
+<FileoutputStream
+<FileWriter
+<BufferedReader
+Files.write()
