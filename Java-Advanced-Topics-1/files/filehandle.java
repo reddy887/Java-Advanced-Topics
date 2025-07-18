@@ -17,5 +17,6 @@ public class filehandle
             text=sc.nextLine();
         }
         System.out.println(text);
+        sc.close();
     }
 }
