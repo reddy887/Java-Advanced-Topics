@@ -17,6 +17,11 @@ public class singlelinked
         LinkedList<Integer> li=new LinkedList<>();
         li.add(34);
         li.add(356);
+        li.addFirst(45);
+        li.addLast(344);
+        System.out.println(li.get(0));
+        System.err.println(li.getFirst());
+        System.err.println(li.getLast());
         System.err.println(li.size());
         System.out.println(li);
     }
