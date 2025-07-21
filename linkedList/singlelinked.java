@@ -24,5 +24,9 @@ public class singlelinked
         System.err.println(li.getLast());
         System.err.println(li.size());
         System.out.println(li);
+        boolean boolan=li.isEmpty();
+        int boolan2=li.indexOf(3);
+        System.err.println(boolan2);
+        System.out.println( boolan);
     }
 }
