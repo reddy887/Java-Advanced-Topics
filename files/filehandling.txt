@@ -24,3 +24,5 @@ Different ways of writing the data into textfiles.
 <FileWriter
 <BufferedReader
 Files.write()
+
+the topic will be continued tomorrow 
